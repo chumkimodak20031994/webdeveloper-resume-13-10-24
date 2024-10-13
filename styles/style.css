@@ -1,0 +1,82 @@
+
+.content{
+/* margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+    */
+    
+}
+.flex{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    color: rgba(13, 19, 33, 1);
+    font-weight: bold;
+    font-size: 24px;
+}
+.resume{
+    color: rgba(13, 19, 33, 1);
+    font-size: 18px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 7px;
+}
+.bg-img{
+    align-items: center;
+}
+.navbar {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+              
+}
+.navbar-text{
+            
+    justify-content: center;     
+    align-items: center;        
+    text-align: center;         
+     
+}
+.nav-title-text{
+    color: rgba(13, 19, 33, 1);
+    font-weight: bold;
+    font-size: 42px;
+}
+.contact{
+    background-color:rgba(13, 19, 33, 1) ;
+    color: white;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.main-contents{
+    margin: 80px;
+    background-color: rgb(246, 248, 251);
+    padding: 10px;
+}
+.main-text{
+    justify-content: center;     
+    align-items: center;        
+    text-align: center;     
+}
+.main-title-text{
+    color: rgba(13, 19, 33, 1);
+    font-weight: bolder;
+    font-size: 25px;  
+}
+.main-content1{
+    margin-top:25px;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}

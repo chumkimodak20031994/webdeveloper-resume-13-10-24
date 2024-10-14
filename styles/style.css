@@ -75,6 +75,7 @@ margin-right: 20px;
     color: rgba(13, 19, 33, 1);
     font-weight: bolder;
     font-size: 25px;  
+    
 }
 .main-content{
     margin:20px;
@@ -148,4 +149,83 @@ iframe{
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 30px; 
+}
+.learn-more-btn-html {
+    border: none; 
+    border-bottom: 2px solid black; 
+   font-weight: bold;
+    font-size: 19px;
+    background-color:rgb(251, 237, 237);
+}
+.learn-more-btn-css {
+    border: none; 
+    border-bottom: 2px solid black; 
+   font-weight: bold;
+    font-size: 19px;
+    background-color: rgb(228, 233, 248);
+}
+.learn-more-btn-js {
+    border: none; 
+    border-bottom: 2px solid black; 
+   font-weight: bold;
+    font-size: 19px;
+    background-color: rgb(254, 248, 249);
+}
+
+.html-content{
+    background-color:rgb(251, 237, 237);
+    padding: 20px;
+    border-radius: 10px;
+}
+.css-content{
+    background-color: rgb(228, 233, 248);
+    padding: 20px;
+    border-radius: 10px;
+}
+.java-content{
+    background-color: rgb(254, 248, 249);
+    padding: 20px;
+}
+.react-content{
+    margin-top:20px;
+    margin-bottom: 10px;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+   justify-content:center;
+    align-items: center;
+    border: 2px solid silver;
+    border-radius: 10px;
+}
+.js-img{
+    padding-right: 20px;
+}
+.learn-more {
+    border: none; 
+    border-bottom: 2px solid black; 
+   font-weight: bold;
+    font-size: 19px;
+    background-color: white;
+}
+.search-content {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px;
+   
+}
+
+.search-img{
+   
+    max-width: 1235px;
+    max-height: 350px;
+    margin-top:20px;
+   
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
 }

@@ -13,13 +13,7 @@ body{
     margin-left: 0%;
     margin-right: 0%;
 }
-.content{
-/* margin-top: 10px;
-margin-left: 20px;
-margin-right: 20px;
-    */
-    
-}
+
 .flex{
     display: flex; 
     align-items: center;
@@ -37,20 +31,26 @@ margin-right: 20px;
     border-radius: 6px;
     padding: 7px;
 }
+
 .bg-img{
     align-items: center;
+    padding-top: 20px;
 }
 .navbar {
-    display: flex;               
+               
     justify-content: center;     
-    align-items: center;         
-              
+    align-items: center;    
+    text-align: center;      
+    background-image: url('/assets/Hero-bg.png');   
+    height: 620px;   
+   
 }
 .navbar-text{
             
     justify-content: center;     
     align-items: center;        
-    text-align: center;         
+    text-align: center;  
+        
      
 }
 .nav-title-text{
@@ -69,6 +69,9 @@ margin-right: 20px;
     margin-top: 10px;
     font-weight: bold;
     font-size: 14px;
+    position: relative;
+    margin-bottom: 20px;
+    
    
 }
 a{

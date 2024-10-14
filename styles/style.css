@@ -1,4 +1,18 @@
 
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
 .content{
 /* margin-top: 10px;
 margin-left: 20px;
@@ -9,7 +23,7 @@ margin-right: 20px;
 .flex{
     display: flex; 
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .name{
     color: rgba(13, 19, 33, 1);
@@ -51,10 +65,21 @@ margin-right: 20px;
     padding-right: 27px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 4px;
+    border-radius: 8px;
     margin-top: 10px;
     font-weight: bold;
     font-size: 14px;
+   
+}
+a{
+    border: none;
+    text-decoration: none;
+}
+.p-text{
+color: rgb(143, 142, 142);
+    font-size: 16px;
+font-weight: 500;
+padding-bottom: 20px;
 }
 .main-contents{
     margin: 90px auto;
@@ -63,9 +88,15 @@ margin-right: 20px;
     justify-content: center;     
     align-items: center;  
     max-width: 1200px;
-  
+  border-radius: 10px;
    
 }
+.p-text-code{
+    color: rgb(143, 142, 142);
+        font-size: 16px;
+    font-weight: 500;
+   
+    }
 .main-text{
     justify-content: center;     
     align-items: center;        
@@ -86,6 +117,7 @@ margin-right: 20px;
     display: flex;
     justify-content: space-between;
    align-items: center;
+   border-radius: 10px;
    
 }
 .main-content2{
@@ -97,8 +129,10 @@ margin-right: 20px;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+    border-radius: 10px;
 }
 .main-content3{
+    border-radius: 10px;
     margin-top:20px;
     margin-bottom: 20px;
     margin-left: 135px;
@@ -122,6 +156,7 @@ margin-right: 20px;
     font-size: 13px;
     letter-spacing: 0.2ch;
     line-height: 0.5cm;
+    padding-bottom: 10px;
 }
 .main-content-btn{
     color: rgba(13, 19, 33, 1);
@@ -142,7 +177,10 @@ margin-right: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;   
-    
+  border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 135px;
+    margin-right: 135px;
 }
 
 iframe{
@@ -154,6 +192,7 @@ iframe{
     border: none; 
     border-bottom: 2px solid black; 
    font-weight: bold;
+   color: black;
     font-size: 19px;
     background-color:rgb(251, 237, 237);
 }
@@ -163,9 +202,12 @@ iframe{
    font-weight: bold;
     font-size: 19px;
     background-color: rgb(228, 233, 248);
+    color: black;
 }
 .learn-more-btn-js {
     border: none; 
+    
+color: black;
     border-bottom: 2px solid black; 
    font-weight: bold;
     font-size: 19px;
@@ -174,17 +216,34 @@ iframe{
 
 .html-content{
     background-color:rgb(251, 237, 237);
-    padding: 20px;
     border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+   height: 300px;
+   width: 100%;
+   max-width: 300px;
+   padding: 20px;
 }
 .css-content{
     background-color: rgb(228, 233, 248);
     padding: 20px;
     border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+   height: 300px;
+   width: 100%;
+   max-width: 300px;
 }
 .java-content{
     background-color: rgb(254, 248, 249);
     padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    
 }
 .react-content{
     margin-top:20px;
@@ -206,6 +265,7 @@ iframe{
     border: none; 
     border-bottom: 2px solid black; 
    font-weight: bold;
+   color: black;
     font-size: 19px;
     background-color: white;
 }
@@ -229,7 +289,7 @@ iframe{
 }
 .search-des{
     color: silver;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
 
 }
@@ -239,7 +299,8 @@ iframe{
     max-width: 450px;
    border: none; 
    border-radius: 10px;
-color: rgb(252, 249, 249);
+background-color: rgb(252, 249, 249);
+color: black;
 font-size: 17px;
 font-weight: 500;
 }
@@ -251,10 +312,36 @@ font-weight: 500;
     background-color: white;
     border-radius: 7px;
 }
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(246, 250, 250);
+    padding: 15px;
+   
+    align-items: center;
+    margin-bottom: 0px;
+}
+.footer-text{
+font-size: 25px;
+color: black;
+font-weight: 600;
+}
 
-
-
-
+.footer-img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.html-cs-js-content{
+   
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 135px;
+    margin-right: 135px;
+   
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
 
 
 

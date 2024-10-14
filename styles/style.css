@@ -41,7 +41,7 @@ body{
     justify-content: center;     
     align-items: center;    
     text-align: center;      
-    background-image: url('/assets/Hero-bg.png');   
+    background-image: url('./assets/Hero-bg.png');   
     height: 620px;   
    
 }
